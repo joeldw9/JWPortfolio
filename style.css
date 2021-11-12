@@ -1,0 +1,149 @@
+body {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    padding-right: 20%;
+    margin-left: -200px;
+    margin-top: -20px;
+    background-color: rgba(76, 135, 202, 1);
+    padding-top: 1.75%;
+    padding-bottom: 1.75%;
+}
+
+.nav a {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav a:hover {
+    color: rgb(148, 148, 148);
+}
+
+.nav div {
+    padding-top: 25px;
+    display: flex;
+    justify-content: right;
+    padding-left: 60%;
+}
+
+.nav h2 {
+    top: 50px;
+    justify-content: left;
+    text-align: left;
+    margin-left: 200px;
+    color: white;
+    padding-left: 100px;
+}
+
+.sticky {
+    opacity: 100%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: right;
+    padding-right: 20%;
+    margin-left: -200px;
+    margin-top: -20px;
+    background-color: rgba(76, 135, 202, 1);
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    font-size: 75%;
+}
+
+.sticky a {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.sticky a:hover {
+    color: rgb(148, 148, 148);
+}
+
+.sticky div {
+    padding-top: 25px;
+    display: flex;
+    justify-content: right;
+    padding-left: 60%;
+}
+
+.sticky h2 {
+    top: 50px;
+    justify-content: left;
+    text-align: left;
+    margin-left: 200px;
+    color: white;
+    padding-left: 100px;
+}
+
+.home {
+    background-color: rgb(168, 168, 168);
+    margin-left: -200px;
+    margin-top: -20px;
+    padding-top: 125px;
+    text-align: center;
+    padding-left: 200px;
+    padding-bottom: 100px;
+}
+
+.home p {
+    padding-top: 50px;
+    width: 60%;
+    text-align: center;
+    padding-left: 350px;
+}
+
+
+#about {
+    padding-top: 75px;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.aboutMe {
+    padding-top: 20px;
+    display: flex;
+}
+
+.aboutMe p {
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h2 {
+    margin-left: 10%;
+}
+
+#portfolio {
+    justify-content: center;
+    padding-top: 50px;
+    width: 50%;
+    margin-left: 25%;
+}
+
+#portfolio img {
+    height: 30vh;
+    width: 30vh;
+    padding-top: 30px;
+    padding-right: 15vh;
+    padding-right: 15vh;
+}
+
+
+
+
+
