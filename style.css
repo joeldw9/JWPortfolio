@@ -1,25 +1,28 @@
 body {
-    width: 100%;
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url("images/background.jpg");
+    background-size: 100% 100%;
 }
 
 .nav {
-    position: fixed;
+    position: absolute;
     top: 0;
+    left: 0;
     width: 100%;
-    height: 50px;
-    display: flex;
-    padding-right: 20%;
-    margin-left: -200px;
-    margin-top: -20px;
+    height: fit-content;
     background-color: rgba(76, 135, 202, 1);
-    padding-top: 1.75%;
-    padding-bottom: 1.75%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    justify-content: center;
+    text-align: center;
+    z-index: 1000;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
 }
 
 .nav a {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
     text-decoration: none;
     color: white;
 }
@@ -28,94 +31,53 @@ body {
     color: rgb(148, 148, 148);
 }
 
-.nav div {
-    padding-top: 25px;
-    display: flex;
-    justify-content: right;
-    padding-left: 60%;
+.navItems {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 10%;
+    padding: 30.5px 0;
 }
 
 .nav h2 {
-    top: 50px;
-    justify-content: left;
+    color: white;
     text-align: left;
-    margin-left: 200px;
-    color: white;
-    padding-left: 100px;
-}
-
-.sticky {
-    opacity: 100%;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    height: 30px;
-    display: flex;
-    justify-content: right;
-    padding-right: 20%;
-    margin-left: -200px;
-    margin-top: -20px;
-    background-color: rgba(76, 135, 202, 1);
-    padding-top: 1.5%;
-    padding-bottom: 1.5%;
-    font-size: 75%;
-}
-
-.sticky a {
-    padding-left: 10px;
-    padding-right: 10px;
-    text-decoration: none;
-    color: white;
-}
-
-.sticky a:hover {
-    color: rgb(148, 148, 148);
-}
-
-.sticky div {
-    padding-top: 25px;
-    display: flex;
-    justify-content: right;
-    padding-left: 60%;
-}
-
-.sticky h2 {
-    top: 50px;
-    justify-content: left;
-    text-align: left;
-    margin-left: 200px;
-    color: white;
-    padding-left: 100px;
 }
 
 .home {
-    background-color: rgb(168, 168, 168);
-    margin-left: -200px;
-    margin-top: -20px;
-    padding-top: 125px;
-    text-align: center;
-    padding-left: 200px;
-    padding-bottom: 100px;
-}
-
-.home p {
-    padding-top: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: ghostwhite;
+    font-weight: bolder;
     width: 60%;
+    height: 100%;
+    background-repeat: no-repeat;
     text-align: center;
-    padding-left: 350px;
+    position: absolute;
+    justify-content: center;
+    z-index: 1;
+    font-size: 200%;
+    padding-left: 20%;
+    opacity: 1;
 }
-
 
 #about {
-    padding-top: 75px;
+    padding-top: 150px;
     text-align: left;
     margin-left: 10%;
     margin-right: 10%;
 }
 
+.aboutHeader {
+    color: ghostwhite;
+    font-size: 200%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .aboutMe {
     padding-top: 20px;
     display: flex;
+    color: ghostwhite;
+    font-weight: bold;
 }
 
 .aboutMe p {
@@ -124,23 +86,33 @@ body {
     padding-right: 20px;
 }
 
-h2 {
+.nav h2 {
     margin-left: 10%;
 }
 
+#portfolioText {
+    text-align: center;
+    padding-top: 15%;
+    color: ghostwhite;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 250%;
+}
+
 #portfolio {
+    display: flex;
     justify-content: center;
-    padding-top: 50px;
+    padding-top: 5%;
     width: 50%;
     margin-left: 25%;
 }
 
 #portfolio img {
+    justify-content: center;
     height: 30vh;
     width: 30vh;
     padding-top: 30px;
-    padding-right: 15vh;
-    padding-right: 15vh;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 
